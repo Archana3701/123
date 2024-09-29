@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        function func(n) {
+            var sum = 0;
+            for (var i = 0; i < arguments.length; i++) { sum = sum + arguments[i]; } return sum;
+        } var s = func(1, 2, 3, 4, 5);
+        document.write("Sum is :" + s);
+    </script>
