@@ -1,0 +1,16 @@
+<script>
+    var address =
+    {
+        company: "Codingal",
+        city: "Bangalore",
+        state: "Karnataka",
+        fullAddress: function () {
+            return this.company + " " + this.city + " " + this.state;
+        }
+    };
+
+
+    var fetch = address.fullAddress();
+    document.writeln(fetch);
+
+</script>
